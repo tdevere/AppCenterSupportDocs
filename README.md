@@ -9,4 +9,6 @@ Information, Workarounds and Solutions to common issues within the context of ht
 
 [Authentication failed because no credentials were provided](/Build/Authentication_failed_because_no_credentials_were_provided.md)
 
+[Xcode couldn't find any provisioning profiles matching](/Build/Xcode_couldn't_find_any_provisioning_profiles_matching.md)
+
 ## Portal Issues
