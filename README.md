@@ -13,4 +13,16 @@ Information, Workarounds and Solutions to common issues within the context of ht
 
 [Command Not Found](/Build/command_not_found.md)
 
+[Distribution Store does not exist.md](/Build/Distribution_Store_does_not_exist.md)
+
+[Expiring Daemon because JVM heap space is exhausted](/Build/Expiring_Daemon_because_JVM_heap_space_is_exhausted.md)
+
+[Failed to publish to store](/Build/Failed_to_publish_to_store.md)
+
+[java.util.zip.ZipException: invalid entry compressed size (expected XXXX but got XXXX bytes)](/Build/Build/java.util.zip.ZipException_invalid_entry_compressed_size.md)
+
+[](/)
+
+[](/)
+
 ## Portal Issues
