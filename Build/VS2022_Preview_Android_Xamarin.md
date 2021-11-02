@@ -1,8 +1,8 @@
 # error XA0000: Could not determine API level for $(TargetFrameworkVersion) of 'v12.0'. 
 
 ## Discussion
-* App Center Build Agents do not currently support compling Android v12.0
-* The default JAVA_HOME value set on the App Center build agents points to Java SDK version 1.8.0
+* App Center Build Agents do not currently support compling Android v12.0 (as of 11/2/2021)
+* The default JAVA_HOME value set on the App Center build agents points to Java SDK version 1.8.0 (as of 11/2/2021)
 
 ## Primary Error
 
