@@ -11,4 +11,6 @@ Information, Workarounds and Solutions to common issues within the context of ht
 
 [Xcode couldn't find any provisioning profiles matching](/Build/Xcode_couldn't_find_any_provisioning_profiles_matching.md)
 
+[Command Not Found](/Build/command_not_found.md)
+
 ## Portal Issues
