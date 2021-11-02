@@ -20,7 +20,7 @@
     Build FAILED.
 
 ## Proposed Workaround
-### Add a custom environment variable in the App Center build configuration, then save and build the application again.
+### Add a custom environment variable in the App Center build configuration, then save the build configuration.
 ![](/Images/AppCenterBuildVariable_JAVA_HOME.png "AppCenter Build Enviornment Settings")
 
 ## AndroidUseLatestPlatformSdk = true
