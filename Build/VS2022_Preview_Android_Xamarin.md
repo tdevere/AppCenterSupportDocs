@@ -1,7 +1,6 @@
 # error XA0000: Could not determine API level for $(TargetFrameworkVersion) of 'v12.0'. 
 
 ## Discussion
-* App Center Build Agents do not currently support compling Android v12.0 (as of 11/2/2021)
 * The default JAVA_HOME value set on the App Center build agents points to Java SDK version 1.8.0 (as of 11/2/2021)
 
 ## Primary Error
@@ -21,13 +20,13 @@
     Build FAILED.
 
 ## Proposed Workaround
-
+## Option One: Downgrade
 ### Downgrade to Android 11.0
 ![](/Images/Android_Xamarin_TargetFramework.png "Sample Project Settings")
 ### Add a custom environment variable in the App Center build configuration, then save and build the application again.
 ![](/Images/AppCenterBuildVariable_JAVA_HOME.png "AppCenter Build Enviornment Settings")
 
-## Expected Result
+### Expected Result
 
 After the downgrade of the project and configuring JAVA_HOME to point to the newer Java SDK the build output should look like this:
 
@@ -40,6 +39,11 @@ After the downgrade of the project and configuring JAVA_HOME to point to the new
     Found Java SDK version 11.0.13.
     _ResolveXamarinAndroidTools:
     Found Xamarin.Android 11.3.0.4
+
+## Option Two: Keep Android v12.0
+Change the AndroidUseLatestPlatformSdk `.csproj` project setting to `true` to enable use the latest Android Platform
+
+	<AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
 
 
 
