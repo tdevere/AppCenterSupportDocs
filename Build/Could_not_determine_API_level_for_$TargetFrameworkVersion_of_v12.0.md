@@ -42,7 +42,10 @@ After the downgrade of the project and configuring JAVA_HOME to point to the new
     _ResolveXamarinAndroidTools:
     Found Xamarin.Android 11.3.0.4
 
-
+# Still Require Help?
+---
+## Contact App Center Support
+If your problem was not documented and you require further support, please see [Contact App Center Support for Build Failure](/Build/Contact_App_Center_Suport_Build_Issue.md)
 
 
 
