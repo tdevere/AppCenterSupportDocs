@@ -25,7 +25,7 @@
 ### Steps
 * ![Downgrade to Android 11.0](/Images/Android_Xamarin_TargetFramework.png "Sample Project Settings")
 
-* ![Add a custom environment variable in the App Center build configuration, then save and build the application again.](//Images/AppCenterBuildVariable_JAVA_HOME.png "AppCenter Build Enviornment Settings")
+* ![Add a custom environment variable in the App Center build configuration, then save and build the application again.](/Images/AppCenterBuildVariable_JAVA_HOME.png "AppCenter Build Enviornment Settings")
 
 ## Expected Result
 
