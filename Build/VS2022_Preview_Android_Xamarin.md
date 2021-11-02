@@ -20,11 +20,13 @@
     Build FAILED.
 
 ## Proposed Workaround
-## Option One: Downgrade
-### Downgrade to Android 11.0
-![](/Images/Android_Xamarin_TargetFramework.png "Sample Project Settings")
 ### Add a custom environment variable in the App Center build configuration, then save and build the application again.
 ![](/Images/AppCenterBuildVariable_JAVA_HOME.png "AppCenter Build Enviornment Settings")
+
+## AndroidUseLatestPlatformSdk = true
+Change the AndroidUseLatestPlatformSdk `.csproj` project setting to `true` to enable use the latest Android Platform
+
+	<AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
 
 ### Expected Result
 
@@ -40,10 +42,7 @@ After the downgrade of the project and configuring JAVA_HOME to point to the new
     _ResolveXamarinAndroidTools:
     Found Xamarin.Android 11.3.0.4
 
-## Option Two: Keep Android v12.0
-Change the AndroidUseLatestPlatformSdk `.csproj` project setting to `true` to enable use the latest Android Platform
 
-	<AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
 
 
 
