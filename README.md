@@ -35,7 +35,7 @@ Information, Workarounds and Solutions to common issues within the context of ht
 
 [Signing Certificate Publisher Mismatch](/Build/SigningCertificatePublisherMismatch.md)
 
-[The Server SSH Fingerprint Failed To Verify](/Build/Theserver_SSH_fingerprint_failed_to_verify.md)
+[The Server SSH Fingerprint Failed To Verify](/Build/The_server_SSH_fingerprint_failed_to_verify.md)
 
 [Unable To Find Package](/Build/Unable_To_Find_Package.md)
 
