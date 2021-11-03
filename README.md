@@ -19,7 +19,7 @@ Information, Workarounds and Solutions to common issues within the context of ht
 
 [IPA Processing Failed](/Build/IPA_processing_failed.md)
 
-[java.util.zip.ZipException: invalid entry compressed size (expected XXXX but got XXXX bytes)](/Build/Build/java.util.zip.ZipException_invalid_entry_compressed_size.md)
+[java.util.zip.ZipException: invalid entry compressed size (expected XXXX but got XXXX bytes)](/Build/java.util.zip.ZipException_invalid_entry_compressed_size.md)
 
 [Keystore Coud Not Be Found](/Build/keystore_could_not_be_found.md)
 
