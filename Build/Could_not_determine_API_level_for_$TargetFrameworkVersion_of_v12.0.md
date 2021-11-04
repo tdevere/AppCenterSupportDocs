@@ -52,11 +52,13 @@ At the start of the build log we find a link to the build agent included softwar
     Version: 20211029.3
     Included Software: https://github.com/actions/virtual-environments/blob/macOS-11/20211029.3/images/macos/macos-11-Readme.md
 
-This list will contain the versions included on the build agent. 
+This list will contain the versions included on the build agent.
+ 
 ![](/Images/Build_Agent_Java_Versions_Sample.png "Example Table")  
 
 
 Add a custom environment variable in the App Center build configuration, then save the build configuration.
+
 ![](/Images/AppCenterBuildVariable_JAVA_HOME.png "AppCenter Build Enviornment Settings")
 
 ### Expected Result
