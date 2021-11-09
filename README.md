@@ -42,3 +42,5 @@ Information, Workarounds and Solutions to common issues within the context of ht
 [Unable To Open File In Project Pods](/Build/Unable_To_Open_File_In_Project_Pods.md)
 
 [Xcode couldn't find any provisioning profiles matching](/Build/Xcode_couldn't_find_any_provisioning_profiles_matching.md)
+
+[Failed to prepare UI Test artifacts](/Build/Failed_to_prepare_UI_Test_artifacts.md)
