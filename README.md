@@ -44,3 +44,5 @@ Information, Workarounds and Solutions to common issues within the context of ht
 [Xcode couldn't find any provisioning profiles matching](/Build/Xcode_couldn't_find_any_provisioning_profiles_matching.md)
 
 [Failed to prepare UI Test artifacts](/Build/Failed_to_prepare_UI_Test_artifacts.md)
+
+[error MSB4057: The target "_IsProjectRestoreSupported" does not exist in the project](/Build/error_MSB4057_The_target_IsProjectRestoreSupported_does_not_exist_in_the_project.md)
