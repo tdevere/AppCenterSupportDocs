@@ -14,7 +14,7 @@ This specifically impacts UWP projects within the Solution.
 
 ## Workaround
 
-The best workaround available at this moment is to create an appcenter-post-clone.sh script and use dotnet to remove UWP project references. See [](/Build_Scripts/Remove_Project_From_Solution.md)
+The best workaround available at this moment is to create an appcenter-post-clone.sh script and use dotnet to remove UWP project references. See [How to remove projects from your solution](/Build_Scripts/Remove_Project_From_Solution.md)
 
     #!/usr/bin/env bash
 
