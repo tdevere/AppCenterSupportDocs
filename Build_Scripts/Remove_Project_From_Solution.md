@@ -62,7 +62,7 @@ Another consideration is to ensure that the search term will match your specific
 
 
 ## PowerShell Example
-In this example, a new consideration should be considered. In the case of a shared project reference which should be built, you'll need to update the -Exclude option to avoid missing targets you actually require. In the sample below, that shared project is named "NU1503_Mobile_Project.csproj"
+In this example, a new consideration should be made. In the case of a shared project reference which should be built, you'll need to update the -Exclude option to avoid missing targets you actually require. In the sample below, that shared project is named "NU1503_Mobile_Project.csproj"
 
     $SLN_PATH = Get-ChildItem -Path $env:APPCENTER_SOURCE_DIRECTORY -Include *.sln 
     $AllProjects = Get-ChildItem -Path $env:APPCENTER_SOURCE_DIRECTORY -Include *.csproj -Exclude "*UWP*.csproj", "NU1503_Mobile_Project.csproj" -Recurse
