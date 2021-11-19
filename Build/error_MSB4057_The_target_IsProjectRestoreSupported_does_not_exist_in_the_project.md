@@ -14,19 +14,28 @@ This specifically impacts UWP projects within the Solution.
 
 ## Workaround
 
-* use "dotnet restore" or ` dotnet sln $SLN_PATH remove $UWP_PATH `
-* "msbuild -t:restore" commands instead of "nuget restore"
+The best workaround available to this moment is to create an appcenter-post-clone.sh script and use dotnet to remove UWP project references. See [](/Build_Scripts/Remove_Project_From_Solution.md)
 
+    #!/usr/bin/env bash
 
-App Center does not expose a method to directly change the build or nuget restore commands. This is not the case in Azure. This limit forces us to look for another workaround. 
+    echo "The Post Clone Script"
 
-* add ` <Target Name="_IsProjectRestoreSupported" /> ` to the [UWP project.](https://github.com/actions/virtual-environments/issues/4060#issuecomment-961788816)
-* remove the UWP project reference from the solution
+    SLN_PATH=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*.sln' -type f -print0)
+    echo "SLN_PATH = $SLN_PATH"
 
-Both recommendations come at some cost. Adding the empty target causes a new build failure to occur for the same project in App Center. If you don't use App Center for building UWP, this won't be a concern as it does not impact local builds. 
+    if [ -z "$RemoveUWPProjects" ]
+    then 
+        echo "This script only runs within the context of App Center builds"
+        exit
+    fi
 
-If you do build with App Center, then either option forces you to manage either adding/removing the UWP project reference to the solution or removing the _IsProjectRestoreSupported target dynamically if building specifically for UWP projects.
+    UWP_PATHS=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*UWP*.csproj' -type f -print0 )
+    echo " UWP_PATHS = $UWP_PATHS"
 
+    for p in "$UWP_PATHS"; do
+        echo "Removing $p from $SLN_PATH" || true
+        dotnet sln $SLN_PATH remove $p || true
+    done
 
 
 
