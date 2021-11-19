@@ -1,15 +1,20 @@
 # Remove Project From Solution
 ## Recommended to use in appcenter-post-clone.sh
 
-This script *requires the use of a [custom build variable](https://docs.microsoft.com/en-us/appcenter/build/custom/variables/) to be configured: 
+Why remove a project from your solution before build?
+* You are trying to avoid a build issue with that project
+* You want improved build performance by excluding projects which do not need to be rebuilt
+
+This script requires the use of a [custom build variable](https://docs.microsoft.com/en-us/appcenter/build/custom/variables/) to be configured. The values of these do not matter but you may make them boolean: true/false to make them more understanable. 
 
 * RemoveUWPProjects
 * RemoveANDROIDProjects
 * RemoveIOSProjects
 
-In your build configuration, add the build environment variable to enable removing those project types from the .SLN for this build.
+In your App Center build configuration, add the build environment variables to enable removing each project types from the .SLN for that build.
 
 Another consideration is to ensure that the search term will match your specific project name. In the same below, it's assumed that UWP, iOS, and Android will be in the name of each project file. 
+
 
     #!/usr/bin/env bash
 
