@@ -46,3 +46,5 @@ Information, Workarounds and Solutions to common issues within the context of ht
 [Failed to prepare UI Test artifacts](/Build/Failed_to_prepare_UI_Test_artifacts.md)
 
 [error MSB4057: The target "_IsProjectRestoreSupported" does not exist in the project](/Build/error_MSB4057_The_target_IsProjectRestoreSupported_does_not_exist_in_the_project.md)
+
+[Two Factor Authentication Error](/Build/two_factor_authentication_error.md)
