@@ -57,7 +57,7 @@ Another consideration is to ensure that the search term will match your specific
         echo "ANDROID_PATHS=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*Android*.csproj' -type f -print0 )"
         ANDROID_PATHS=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*Android*.csproj' -type f -print0 )
 
-        if [ -z "$ANDROID_PATHS"]
+        if [ -z "$ANDROID_PATHS" ]
         then
             echo "No Android CSPROJ files found. No Action taken."
         else
@@ -79,7 +79,7 @@ Another consideration is to ensure that the search term will match your specific
         echo "IOS_PATHS=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*IOS*.csproj' -type f -print0 )"
         IOS_PATHS=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*IOS*.csproj' -type f -print0 )
 
-        if [ -z "$IOS_PATHS"]
+        if [ -z "$IOS_PATHS" ]
         then
             echo "No iOS CSPROJ files found. No Action taken."
         else
