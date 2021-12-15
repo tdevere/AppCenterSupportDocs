@@ -11,6 +11,9 @@ This script requires the use of a [custom build variable](https://docs.microsoft
 * RemoveANDROIDProjects
 * RemoveIOSProjects
 
+``` Important Note ```
+If you run into the error [Could not determine API level for $(TargetFrameworkVersion) of 'v12.0'](/Build/Could_not_determine_API_level_for_$TargetFrameworkVersion_of_v12.0.md), please try setting the JAVA_HOME environment variable to point to a newer verision of the Java SDK.
+
 In your App Center build configuration, add the build environment variables to enable removing each project types from the .SLN for that build.
 
 Another consideration is to ensure that the search term will match your specific project name. In the same below, it's assumed that UWP, iOS, and Android will be in the name of each project file. 
