@@ -12,7 +12,7 @@ Opening a pull request on GitHub will start an App Center build. However, users 
 
 On the other hand, if the App was built via App Center portal and build was configured manually to a GitHub hosted repo, you can configure the WebHook notification settings in GitHub to not trigger when a PR is made. After the initial build configuration is saved in the App Center portal, back over at GitHub on the App settings, you will see a Webhook.
 
-![](/Images/GitHub_Webhooks.png "GitHub Webhook")
+![](/Images/GitHub_Webhook.png "GitHub Webhook")
 
 ![](/Images/GitHub_Webhook_Pull_Request.png "GitHub Webhook - Pull Request")
 
