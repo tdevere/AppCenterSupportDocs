@@ -8,7 +8,7 @@ To check if you're hitting this problem, examine the build log for the following
 
 * error MSB4057: The target "_IsProjectRestoreSupported" does not exist in the project.
 * warning MSB4181: The "MSBuild" task returned false but did not log an error. 
-* warning : Skipping restore for project '/Users/runner/work/1/s/*.UWP.csproj'. The project file may be invalid or missing targets required for restore.
+* warning NU1503: Skipping restore for project '/Users/runner/work/1/s/*.UWP.csproj'. The project file may be invalid or missing targets required for restore.
 
 This specifically impacts UWP projects within the Solution.
 
