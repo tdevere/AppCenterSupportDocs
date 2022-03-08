@@ -5,7 +5,7 @@ Why remove a project from your solution before build?
 * You are trying to avoid a build issue with that project
 * You want improved build performance by excluding projects which do not need to be rebuilt
 
-This script requires the use of a [custom build variable](https://docs.microsoft.com/en-us/appcenter/build/custom/variables/) to be configured. The values of these do not matter but you may make them boolean: true/false to make them more understandable. 
+This script requires the use of a [custom build variable](https://docs.microsoft.com/en-us/appcenter/build/custom/variables/) to be configured. Build scripts within the contenxt of App Center have name and location requirements depending upon the build environment. For more details check out [build scripts](https://docs.microsoft.com/en-us/appcenter/build/custom/scripts/) and for an example project showing where to place each build script, check out [BuildScriptSample](https://github.com/tdevere/BuildScriptSample) The values of these do not matter but you may make them boolean: true/false to make them more understandable. 
 
 * RemoveUWPProjects
 * RemoveANDROIDProjects
