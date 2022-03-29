@@ -16,7 +16,7 @@ If you run into the error [Could not determine API level for $(TargetFrameworkVe
 
 In your App Center build configuration, add the build environment variables to enable removing each project types from the .SLN for that build.
 
-Another consideration is to ensure that the search term will match your specific project name. In the same below, it's assumed that UWP, iOS, and Android will be in the name of each project file. 
+Another consideration is to ensure that the search term will match your specific project name. In the same below, it's assumed that UWP, iOS, and Android will be in the name of each project file. [If your repo has more than one solution file, check out this solution for bash instead.](https://github.com/tdevere/bash_script#remove-projects-from-mulitple-solution-files-)
 
     #!/usr/bin/env bash
 
