@@ -2,6 +2,8 @@
 Information, Workarounds and Solutions to common issues within the context of https://appcenter.ms usage.
 
 ## Index of Issues
+[Java Development Kit JDK not found](/TEST/Java_Development_Kit_JDK_not_found.md)
+
 [GitHub vs AppCenter App Creation](/Build/GitHub_vs_AppCenter_App_Creation.md)
 
 [An unexpected error occurred: "https://registry.yarnpkg.com/****: ESOCKETTIMEDOUT"](/Build/An_unexpected_error_occurred_ESOCKETTIMEDOUT.md)
