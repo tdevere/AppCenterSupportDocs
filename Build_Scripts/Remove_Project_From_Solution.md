@@ -76,9 +76,9 @@ Another consideration is to ensure that the search term will match your specific
 
     if [ -z "$RemoveIOSProjects" ]
     then 
-        echo "RemoveIOSProjects"
+        echo "Do Not Remove RemoveIOSProjects"
     else
-        echo "Searching for Android Projects"
+        echo "Searching for iOS Projects"
         echo "IOS_PATHS=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*IOS*.csproj' -type f -print0 )"
         IOS_PATHS=$(find $APPCENTER_SOURCE_DIRECTORY -iname '*IOS*.csproj' -type f -print0 )
 
