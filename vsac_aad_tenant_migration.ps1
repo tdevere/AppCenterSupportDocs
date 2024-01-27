@@ -677,23 +677,18 @@ function Setup
 #You need to run Setup at least once
 
 #Migration Check List
-
-#Existing Users who have an app center account, after AAD tenant migration, may not be able to log into app center. 
-    #SEE: https://learn.microsoft.com/en-us/appcenter/general/account#account-is-already-associated-with-another-identity-provider
-#In such cases, the users should open a free support ticket on the App Center portal and share the exact corralation id they got in the error when logging in.
-    #SEE: https://learn.microsoft.com/en-us/appcenter/general/support-center#contact-us
-
-#Export Services may be impacted during a migration. You will want to see what apps use this service, and verify the service is still enabled after the migration. 
-    #SEE: https://learn.microsoft.com/en-us/appcenter/analytics/export
-
-#Azure Subscriptions may be impacted in a migration. It would be good to know what subscriptions are in use in such situations to quickly identify. 
-    #SEE: https://learn.microsoft.com/en-us/appcenter/general/azure-subscriptions
-
-#To find apps which could be imapcted during a migration, you can check their billing status
-    #SEE: https://learn.microsoft.com/en-us/appcenter/general/billing
-
+#Existing Users who have an app center account, after AAD tenant migration, may not be able to log into app center. 
+    #SEE: https://learn.microsoft.com/en-us/appcenter/general/account#account-is-already-associated-with-another-identity-provider
+#In such cases, the users should open a free support ticket on the App Center portal and share the exact correlation id they got in the error when logging in.
+    #SEE: https://learn.microsoft.com/en-us/appcenter/general/support-center#contact-us
+#Export Services may be impacted during a migration. You will want to see what apps use this service, and verify the service is still enabled after the migration. 
+    #SEE: https://learn.microsoft.com/en-us/appcenter/analytics/export
+#Azure Subscriptions may be impacted in a migration. It would be good to know what subscriptions are in use in such situations to quickly identify. 
+    #SEE: https://learn.microsoft.com/en-us/appcenter/general/azure-subscriptions
+#To find apps which could be impacted during a migration, you can check their billing status
+    #SEE: https://learn.microsoft.com/en-us/appcenter/general/billing
 #If you are using bug tracker integration with Azure, you should identify possible impacted apps
-    #SEE: https://learn.microsoft.com/en-us/appcenter/dashboard/bugtracker/
+    #SEE: https://learn.microsoft.com/en-us/appcenter/dashboard/bugtracker/
 
 #Below are some API endpoints you can use to help answer these questions:
 
